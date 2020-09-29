@@ -1,1 +1,5 @@
-# Bayesian_Simulation
+Bayesian Simulation
+
+In a previous post, we applied chained Bayesian logic to interpret a positive COVID-19 test result (https://crawstat.com/2020/06/05/chained-bayesian-interpreting-a-positive-covid-19-test-result/). We've also constructed a couple of simulations, for example, here (https://crawstat.com/2020/05/29/simulating-the-effects-of-non-representative-sample-and-sample-size/) and here (https://crawstat.com/2020/05/22/danae-shaelo-on-strawberry-summit/).
+
+Today, we'll construct a Bayesian simulation to demonstrate how a Bayesian update based on new observations improves our prior belief about the world, in this case about systolic blood pressure. We'll start with our "prior" and, after observing new information, run simulations that update our understanding with a posterior distribution that gets closer to the observed distribution with each new observation. Let's dive in. 
